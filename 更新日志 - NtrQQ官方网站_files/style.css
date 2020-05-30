@@ -1,0 +1,491 @@
+body, h1, h2, h3, h4, h5, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, lengend, button, input, textarea, th, td {
+	margin: 0;
+	padding: 0
+}
+body, button, input, select, textarea, th {
+	color: #777;
+	background-color: #FFF;
+	font-size: 14px;
+	line-height: 1.8em;
+	font-family: "Meiryo UI", "Meiryo", "Microsoft YaHei", "Tahoma", "hiragino sans gb", "Helvetica", "Arial", "黑体"
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	line-height: 1.0em
+}
+h6 {
+	margin: 25px 0px 25px 0px;
+	padding: 0px;
+	font-size: 24px;
+	font-weight: 500;
+	color: #333
+}
+li {
+	list-style: none
+}
+img {
+	border: 0 none;
+	-ms-interpolation-mode: bicubic
+}
+input[type="button"], input[type='submit'] {
+	cursor: pointer
+}
+button {
+	cursor: pointer
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+a {
+	color: #225588;
+	text-decoration: none
+}
+a:hover {
+	color: #000
+}
+a.primary-btn {
+	background: url('index_button_new.png') 0 0 no-repeat !important;
+	display: block;
+	width: 210px;
+	height: 65px;
+	float: left;
+	margin: 180px 480px 0;
+}
+a.primary-btn:hover {
+	background-position: 0px -69px !important;
+}
+a.primary-btn:active {
+	background-position: 0px -138px !important;
+}
+html {
+	overflow-y: scroll
+}
+::-webkit-scrollbar {
+width:12px;
+height:12px
+}
+::-webkit-scrollbar-button:vertical {
+display:none
+}
+::-webkit-scrollbar-track:vertical {
+background-color:black
+}
+::-webkit-scrollbar-track-piece {
+background:#FFF
+}
+::-webkit-scrollbar-thumb:vertical {
+background-color:#8E8E8E;
+border-radius:5px
+}
+::-webkit-scrollbar-thumb:vertical:hover {
+background-color:#3B3B3B
+}
+::-webkit-scrollbar-corner:vertical {
+background-color:#535353
+}
+::-webkit-scrollbar-resizer:vertical {
+background-color:#FF6E00
+}
+.frame_top {
+	height: 113px;
+	border-bottom: 1px solid #DDD
+}
+.main_top {
+	width: 960px;
+	height: 112px;
+	margin: 0 auto;
+	position: relative
+}
+.main_top h1 {
+	background: url(frame_bg.gif) no-repeat -649px -2px;
+	width: 150px;
+	height: 58px;
+	margin-top: 28px;
+	float: left
+}
+.main_top .newyear_logo {
+	width: 295px;
+	height: 113px;
+	background: #fff url(logo.gif) no-repeat;
+	position: absolute;
+	top: 0;
+	left: -144px;
+	margin: 0
+}
+.main_top h1 span {
+	display: none
+}
+.top_info {
+	color: #CDCDCD;
+	margin-top: 9px;
+	float: right
+}
+.top_info a {
+	margin: 0 8px
+}
+.navigation {
+	width: 500px;
+	height: 75px;
+	position: absolute;
+	top: 0;
+	left: 170px
+}
+.navigation li {
+	height: 75px;
+	margin-right: 20px;
+	float: left
+}
+.navigation li span {
+	display: block;
+	height: 5px;
+	font-size: 0;
+	text-indent: -999em;
+	overflow: hidden;
+	background: #fff
+}
+.navigation li a:hover span {
+	background-image: url(frame_bg.gif);
+	background-repeat: no-repeat
+}
+.navigation li.nav_home {
+	width: 53px
+}
+.navigation li.nav_forum {
+	width: 53px
+}
+.navigation li.nav_help {
+	width: 53px
+}
+.navigation li.nav_log {
+	width: 53px
+}
+.navigation li.nav_about {
+	width: 53px
+}
+.navigation li a {
+	background-image: url(frame_bg.gif);
+	background-repeat: no-repeat;
+	display: block;
+	height: 75px;
+	outline: none
+}
+.navigation li.nav_home a {
+	background-position: 0 -77px
+}
+.navigation li.nav_forum a {
+	background-position: -73px -77px
+}
+.navigation li.nav_help a {
+	background-position: -146px -77px
+}
+.navigation li.nav_log a {
+	background-position: -219px -77px
+}
+.navigation li.nav_about a {
+	background-position: -292px -77px
+}
+.navigation li.nav_home a:hover span {
+	background-position: 0 -77px
+}
+.navigation li.nav_forum a:hover span {
+	background-position: -73px -77px
+}
+.navigation li.nav_help a:hover span {
+	background-position: -146px -77px
+}
+.navigation li.nav_log a:hover span {
+	background-position: -219px -77px
+}
+.navigation li.nav_about a:hover span {
+	background-position: -292px -77px
+}
+.navigation li.nav_home a.nonce {
+	background-position: 0 0
+}
+.navigation li.nav_forum a.nonce {
+	background-position: -73px 0
+}
+.navigation li.nav_help a.nonce {
+	background-position: -146px 0
+}
+.navigation li.nav_log a.nonce {
+	background-position: -219px 0
+}
+.navigation li.nav_about a.nonce {
+	background-position: -292px 0
+}
+.navigation li a.nonce span, .navigation li a.nonce:hover span {
+	display: none
+}
+.main_frame {
+	width: 960px;
+	margin: 20px auto 0
+}
+.main_frame li p{
+	text-indent: 2em
+}
+.foot {
+	text-align: center;
+	line-height: 24px;
+	margin: 30px auto 10px;
+	padding-top: 10px;
+	border-top: 1px solid #DDD
+}
+.layout_1 {
+	width: 960px;
+	margin: 0 auto;
+	height: auto;
+	_height: 500px;
+	min-height: 500px
+}
+.layout_1:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0
+}
+.layout_1 .side_container {
+	width: 160px;
+	margin-right: 40px;
+	float: left
+}
+.layout_1 .main_container {
+	width: 760px;
+	float: left
+}
+.layout_2 {
+	width: 960px;
+	margin: 0 auto;
+	height: auto;
+	_height: 500px;
+	min-height: 500px
+}
+.layout_2:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0
+}
+.layout_2 .side_container {
+	width: 220px;
+	float: right
+}
+.layout_2 .main_container {
+	width: 700px;
+	margin-right: 40px;
+	float: left
+}
+.mod_intro {
+	width: 700px;
+	overflow: hidden
+}
+.mod_intro .title {
+	height: 30px;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 0 30px;
+	background: url(download_bg.gif) no-repeat 0 -62px
+}
+.mod_intro ul {
+	width: 740px
+}
+.mod_intro ul li {
+	width: 330px;
+	height: 100px;
+	float: left;
+	margin: 0 40px 30px 0;
+	overflow: hidden
+}
+.mod_intro ul li div {
+	float: left;
+	width: 44px;
+	height: 44px;
+	margin: 0 18px 0 0;
+	background-image: url(download_bg.gif);
+	background-repeat: no-repeat
+}
+.mod_intro ul li h6, .mod_intro ul li p {
+	float: left;
+	width: 268px;
+	text-indent: 0em
+}
+.mod_intro ul li h6 {
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+	margin: -1px 0 6px;
+	padding: 0
+}
+.mod_intro ul li .icon_intro_1 {
+	background-position: 0 -150px
+}
+.mod_intro ul li .icon_intro_2 {
+	background-position: -44px -150px
+}
+.mod_intro ul li .icon_intro_3 {
+	background-position: 0 -194px
+}
+.mod_intro ul li .icon_intro_4 {
+	background-position: -44px -194px
+}
+.mod_intro ul li .icon_intro_5 {
+	background-position: 0 -238px
+}
+.mod_intro ul li .icon_intro_6 {
+	background-position: -44px -238px
+}
+.mod_intro ul li .icon_intro_7 {
+	background-position: 0 -282px
+}
+.mod_intro ul li .icon_intro_8 {
+	background-position: -44px -282px
+}
+.mod_intro ul li .icon_intro_9 {
+	background-position: 0 -326px
+}
+.mod_intro ul li .icon_intro_10 {
+	background-position: -44px -326px
+}
+.mod_intro ul li .icon_intro_11 {
+	background-position: 0 -370px
+}
+.mod_intro ul li .icon_intro_12 {
+	background-position: -44px -370px
+}
+.mod_history_down {
+	margin: 0 0 20px
+}
+.mod_history_down .title {
+	height: 18px;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 0 20px;
+	background: url(download_bg.gif) no-repeat -364px -93px
+}
+.mod_history_down li {
+	margin: 5px 0
+}
+.mod_history_down li a {
+	color: #019877
+}
+.mod_weibo {
+	margin: 0 0 20px
+}
+.mod_weibo li {
+	margin: 5px 0
+}
+.mod_weibo li a {
+	color: #019877
+}
+.show_client {
+	margin: 0 0 26px;
+	width: 960px;
+	height: 280px
+}
+.show_client img {
+	display: block;
+	width: 960px;
+	height: 280px
+}
+.mod_intro .client_title {
+	height: 30px;
+	line-height: 27px;
+	text-indent: 10px;
+	overflow: hidden;
+	margin: 0 0 30px;
+	border-left: solid 5px #FF7800;
+	font-family: "Meiryo UI", "Meiryo", "Microsoft Yahei", "Georgia", "黑体", "Verdana";
+	color: #333;
+	font-size: 28px;
+	font-weight: 500
+}
+.official_download {
+	width: 220px;
+	overflow: hidden;
+	margin: 0 0 25px
+}
+.official_download .title {
+	height: 18px;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 0 20px;
+	background: url(download_bg.gif) no-repeat 0 -93px
+}
+.official_download ul {
+	overflow: hidden
+}
+.official_download li {
+	float: left;
+	width: 110px;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	word-break: keep-all;
+	word-wrap: keep-all;
+	white-space: nowrap;
+	table-layout: fixed;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis
+}
+.official_download li a {
+	color: #019877
+}
+.official_download li a:hover {
+	color: #05B600
+}
+.mod_help {
+	width: 220px;
+	overflow: hidden
+}
+.mod_help .title {
+	height: 18px;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 0 20px;
+	background: url(download_bg.gif) no-repeat 0 -111px
+}
+.mod_help ul {
+	overflow: hidden
+}
+.mod_help li {
+	float: left;
+	width: 220px;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	word-break: keep-all;
+	word-wrap: keep-all;
+	white-space: nowrap;
+	table-layout: fixed;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis
+}
+.mod_help li a {
+	color: #019877
+}
+.mod_help li a:hover {
+	color: #05B600
+}
+
+/*
+     FILE ARCHIVED ON 06:40:40 Feb 24, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:15:17 May 30, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 82.376
+  esindex: 0.018
+  exclusion.robots.policy: 0.125
+  RedisCDXSource: 9.243
+  exclusion.robots: 0.134
+  LoadShardBlock: 55.163 (3)
+  load_resource: 52.741
+  CDXLines.iter: 14.381 (3)
+  PetaboxLoader3.resolve: 26.045
+  PetaboxLoader3.datanode: 59.06 (4)
+*/
